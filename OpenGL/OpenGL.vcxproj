@@ -156,6 +156,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Src\Application.cpp" />
+    <ClCompile Include="Src\IndexBuffer.cpp" />
+    <ClCompile Include="Src\Renderer.cpp" />
+    <ClCompile Include="Src\VertexArray.cpp" />
+    <ClCompile Include="Src\VertexBuffer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\IndexBuffer.h" />
+    <ClInclude Include="Src\Renderer.h" />
+    <ClInclude Include="Src\VertexArray.h" />
+    <ClInclude Include="Src\VertexBuffer.h" />
+    <ClInclude Include="Src\VertexBufferLayout.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\Basic.shader" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
